@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thoai Xu Mi Ta</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Thoai Xu Mi Ta, Designer, Web Developer, Software, Freelanceer">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header-->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="experience.html">My Experience</a>
+                </li>
+                <li>
+                    <a href="project.html">Project</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="link_button">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            CONTACT ME
+        </h1>
+        <h3>SELECT YOUR CONVENIENT WAT TO CONTACT ME</h3>
+    </header>
+    <!-- boddy content -->
+    <section id="contact_wrapper">
+        <section id="contact_form">
+            <form method="post" action="/">
+                <fieldset id="basic_info">
+                    <legend><span class="number">1</span> Basic Info</legend>
+                    <label for="name">Your name:</label>
+                    <input type="text" placeholder="Input your name" maxlength="36" required name="name" id="name">
+                    <label for="email">Email:</label>
+                    <input required type="email" name="email" placeholder="email@address.com" id="email">
+                    <label>Your are</label>
+                    <input checked name="you-are" type="radio" id="individual"> <label for="individual" class="ligh"> Individual</label>
+                    <input type="radio" name="you-are" id="corporate"> <label for="corporate" class="ligh"> Corporate</label>
+                    <label for="whyme">Why do you contact me?</label>
+                    <textarea cols="50" rows="10" id="whyme"></textarea>
+                </fieldset>
+                <fieldset id="about_you">
+                    <legend><span class="number">2</span> About you</legend>
+                    <label for="url">What is your site address</label>
+                    <input type="url" id="url" name="url">
+                    <label>What are areas of projects</label>
+                    <input type="checkbox" value="healthcare" name="healthcare"><label class="ligh"> HealthCare</label>
+                    <input type="checkbox" value="education" name="education"><label class="ligh"> Education</label>
+                    <input type="checkbox" value="finance" name="finance"><label class="ligh"> Finance</label>
+                    <label>How many people in your company?</label>
+                    <select>
+                        <option selected>1 - 10</option>
+                        <option>11 - 20</option>
+                        <option>21 - 50</option>
+                        <option>More than 100</option>
+                    </select>
+                    <label>What is your role?</label>
+                    <select>
+                        <optgroup label="Web">
+                            <option>Web Designer</option>
+                            <option>Web Developer</option>
+                            <option>Full Stack Developer</option>
+                        </optgroup>
+                        <optgroup label="Architect">
+                            <option>Software Architect</option>
+                            <option>Database Architect</option>
+                            <option>System Architect</option>
+                        </optgroup>
+                        <optgroup label="Other"></optgroup>
+                    </select>
+                </fieldset>
+                <button type="submit">Contact me NOW</button>
+                <button type="reset">Clear</button>
+            </form>
+            <address>
+                <i class="fa fa-phone"></i> 0909-090-909
+            </address>
+        </section>
+        
+        <aside id="fixed_nav">
+            <ul>
+            <li><a href="/"><i class="fa fa-facebook-official" aria-hidden="true" id="facebook-icon"></i><strong id="txtfab"> Facebook</strong></a>
+            <li><a href="/"><i class="fa fa-google-plus-official" aria-hidden="true" id="gogole-icon"></i><strong id="txtgg"> Google+</strong></a>
+            <li><a href="/"><i class="fa fa-twitter" aria-hidden="true" id="twitter-icon"></i> <strong id="txttw"> Twitter</strong></a>
+                </ul>
+        </aside>
+    </section>
+    <hr>
+    <!--horizontal row-->
+    <footer id="footerr">
+        <div id="icon"><i class="fa fa-facebook-official" aria-hidden="true" id="facebook-icon"></i><strong id="txtfab"> Facebook</strong>
+            <i class="fa fa-google-plus-official" aria-hidden="true" id="gogole-icon"></i><strong id="txtgg"> Google+</strong>
+            <i class="fa fa-twitter" aria-hidden="true" id="twitter-icon"></i> <strong id="txttw"> Twitter</strong>
+        </div>
+        <strong>&copy; 2016 - Thoai Xu Mi Ta</strong>
+    </footer>
+</body>
+
+</html>
